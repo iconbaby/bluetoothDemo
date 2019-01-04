@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <ListView
+        android:id="@+id/fragment_bluetooth_lv_chat"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -18,10 +19,11 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/fragment_bluetooth_et_input"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="bottom" />
+            android:layout_gravity="bottom"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/fragment_bluetooth_bt_send"
